@@ -1,0 +1,32 @@
+{
+    "name": "woisk/user",
+    "description": "this woisk user ",
+    "autoload": {
+      "psr-4": {
+        "Woisk\\User\\": "src/"
+      },
+      "files":[
+
+      ]
+    },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Woisk\\User\\Providers\\UserServiceProvider",
+        "Woisk\\User\\Providers\\EventServiceProvider"
+      ],
+      "aliases": {
+
+      }
+    }
+  },
+    "authors": [
+        {
+            "name": "lifenglin",
+            "email": "bolelin@126.com"
+        }
+    ],
+    "require": {
+
+    }
+}
